@@ -362,7 +362,7 @@ ORDER BY
 
 require("./app/routes/turorial.routes")(app);
 
-const PORT = process.env.PORT || 8083;
+const PORT = process.env.PORT || 80;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
 });
